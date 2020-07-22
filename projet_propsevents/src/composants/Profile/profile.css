@@ -1,0 +1,16 @@
+.profiles{
+  margin: 20px;
+ padding:  20px;
+}
+
+.profile{
+  display: flex;
+padding: 20px;
+  background-color: white;
+  border: inset 5px blue;
+  
+}
+.detailles{
+  padding: 20px;
+
+}
