@@ -26,4 +26,8 @@ export default function Profiles({name,profession,Bio,children}) {
 Profiles.propTypes ={
     name: PropTypes.string, profession: PropTypes.string, Bio: PropTypes.string
   }
-  
+  Profiles.defaultProps={
+      name:"no data",
+      profession:"no data",
+      Bio:"no data"
+  }
